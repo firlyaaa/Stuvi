@@ -1,34 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SearchStudentActivity">
 
-    <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/textView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/bg_search"
-        android:padding="16dp"
-        android:hint="Cari siswa"
-        android:drawableEnd="@drawable/ic_baseline_search"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ScrollView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView">
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/textView"
+            android:layout_width="507dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_search"
+            android:drawableEnd="@drawable/ic_baseline_search"
+            android:hint="Cari siswa"
+            android:padding="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/materialCardView1"
@@ -45,31 +40,33 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:backgroundTint="">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginTop="16sp"
+                    android:layout_marginEnd="16sp"
+                    android:fontFamily="@font/opensans_regular"
                     android:text="Nama : Jeno Saputra" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginTop="8sp"
+                    android:layout_marginEnd="16sp"
                     android:text="NIS : 10192" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="16dp"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginTop="8sp"
+                    android:layout_marginEnd="16sp"
+                    android:layout_marginBottom="16sp"
                     android:text="NISN : 12083276" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -94,26 +91,26 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginTop="16sp"
+                    android:layout_marginEnd="16sp"
                     android:text="Nama : Ahmad Sumbul" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginTop="8sp"
+                    android:layout_marginEnd="16sp"
                     android:text="NIS : 10156" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="16dp"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginTop="8sp"
+                    android:layout_marginEnd="16sp"
+                    android:layout_marginBottom="16sp"
                     android:text="NISN : 27817631" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -138,31 +135,30 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginTop="16sp"
+                    android:layout_marginEnd="16sp"
                     android:text="Nama : Caca Haikal" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginTop="8sp"
+                    android:layout_marginEnd="16sp"
                     android:text="NIS : 10175" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="16dp"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginTop="8sp"
+                    android:layout_marginEnd="16sp"
+                    android:layout_marginBottom="16sp"
                     android:text="NISN : 86439286" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
-    </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
