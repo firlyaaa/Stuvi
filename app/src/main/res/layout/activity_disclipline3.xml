@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Disclipline3Activity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="18dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/spacegrotesk_bold"
+        android:text="Kedisiplinan seragam"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/chipgroup_cari_siswa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="18dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipgroup_cari_siswa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="396dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="0.0">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_bet_seragam"
+            android:layout_width="350dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Bet seragam tidak lengkap"
+            app:chipBackgroundColor="#F4F4F4"
+            app:chipCornerRadius="10dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_dasi_tidak_digunakan"
+            android:layout_width="350dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Dasi tidak digunakan"
+            app:chipBackgroundColor="#F4F4F4"
+            app:chipCornerRadius="10dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_hasduk_tidak_digunakan"
+            android:layout_width="350dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Hasduk tidak digunakan"
+            app:chipBackgroundColor="#F4F4F4"
+            app:chipCornerRadius="10dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_hijab_tidak_sesuai_atura"
+            android:layout_width="350dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Hijab tidak sesuai aturan"
+            app:chipBackgroundColor="#F4F4F4"
+            app:chipCornerRadius="10dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_ikat_pinggang"
+            android:layout_width="350dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Ikat pinggang tidak digunakan"
+            app:chipBackgroundColor="#F4F4F4"
+            app:chipCornerRadius="10dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_kaus_kaki"
+            android:layout_width="350dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Kaus kaki tidak diatas 10 cm"
+            app:chipBackgroundColor="#F4F4F4"
+            app:chipCornerRadius="10dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_kaus_kaki_tidak_sesuai_hari"
+            android:layout_width="350dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Kaus kaki tidak sesuai hari"
+            app:chipBackgroundColor="#F4F4F4"
+            app:chipCornerRadius="10dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_topi_tidak_digunakan_saat_upacara"
+            android:layout_width="350dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Topi tidak digunakan saat upacara"
+            app:chipBackgroundColor="#F4F4F4"
+            app:chipCornerRadius="10dp" />
+    </com.google.android.material.chip.ChipGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

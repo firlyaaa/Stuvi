@@ -7,7 +7,7 @@
             android:padding="10dp">
             <solid android:color="#0195df"/>
             <stroke android:color="@color/gray_icon"/>
-            <corners android:radius="20dp"/>
+            <corners android:radius="10dp"/>
 
         </shape>
 

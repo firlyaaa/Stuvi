@@ -36,7 +36,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="344dp"
-        android:layout_height="104dp"
+        android:layout_height="120dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="47dp"
         android:layout_marginEnd="24dp"
@@ -80,6 +80,8 @@
             android:text="NISN : 27817631"
             android:textColor="#444444"
             android:textSize="13sp" />
+
+
     </LinearLayout>
 
     <TextView
@@ -101,11 +103,12 @@
         android:id="@+id/chipgroup_cari_siswa"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6">
 
@@ -116,8 +119,55 @@
             android:layout_marginLeft="5dp"
             android:fontFamily="@font/nunito_semibold"
             android:text="Kedisiplinan Waktu"
-            app:chipCornerRadius="10dp" />
+            app:chipCornerRadius="10dp"
+            app:chipBackgroundColor="#F4F4F4"/>
 
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_kedisiplinan_seragam"
+            android:layout_width="350dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Kedisiplinan Seragam"
+            app:chipCornerRadius="10dp"
+            app:chipBackgroundColor="#F4F4F4"/>
 
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_kedisiplinan_aturan"
+            android:layout_width="350dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Kedisiplinan Aturan"
+            app:chipCornerRadius="10dp"
+            app:chipBackgroundColor="#F4F4F4"/>
     </com.google.android.material.chip.ChipGroup>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="366dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_login2blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chipgroup_cari_siswa"
+        app:layout_constraintVertical_bias="0.266" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="Simpan"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
