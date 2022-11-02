@@ -16,7 +16,7 @@
         <activity
             android:name=".Disclipline2Activity"
             android:exported="false" />
-        <activity
+      <activity
             android:name=".ChoiceOfOffenseActivity"
             android:exported="false" />
         <activity

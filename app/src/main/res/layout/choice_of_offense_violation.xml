@@ -36,7 +36,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="344dp"
-        android:layout_height="104dp"
+        android:layout_height="120dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="47dp"
         android:layout_marginEnd="24dp"
@@ -101,9 +101,8 @@
         android:id="@+id/chipgroup_cari_siswa"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="24dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.425"
@@ -117,24 +116,6 @@
             android:layout_marginLeft="5dp"
             android:fontFamily="@font/nunito_semibold"
             android:text="Kedisiplinan Waktu"
-            app:chipCornerRadius="10dp" />
-
-        <com.google.android.material.chip.Chip
-            android:id="@+id/chip_kedisiplinan_seragam"
-            android:layout_width="350dp"
-            android:layout_height="72dp"
-            android:layout_marginLeft="5dp"
-            android:fontFamily="@font/nunito_semibold"
-            android:text="Kedisiplinan Seragam"
-            app:chipCornerRadius="10dp" />
-
-        <com.google.android.material.chip.Chip
-            android:id="@+id/chip_kedisiplinan_aturan"
-            android:layout_width="350dp"
-            android:layout_height="72dp"
-            android:layout_marginLeft="5dp"
-            android:fontFamily="@font/nunito_semibold"
-            android:text="Kedisiplinan Aturan"
             app:chipCornerRadius="10dp" />
 
 
